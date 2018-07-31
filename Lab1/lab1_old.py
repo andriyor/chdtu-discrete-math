@@ -9,6 +9,7 @@ def sets():
             lst.append(n)
     return lst
 
+
 x, a, b, c, d = [i + 1 for i in range(40)], sets(), sets(), sets(), []
 
 print(' Множина A = %s \n Множина B = %s \n Множина C = %s' % (a, b, c,))
