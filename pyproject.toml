@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "chdtu-discrete-math"
+version = "0.1.0"
+description = ""
+authors = ["Andriy Orehov <andriyorehov@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "*"
+matplotlib = "^2.2"
+matplotlib-venn = "^0.11.5"
+jupyter = "^1.0"
+networkx = "^2.1"
+
+[tool.poetry.dev-dependencies]
